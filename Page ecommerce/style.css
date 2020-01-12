@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+}
+
+.shadow-light {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 0px 10px;
+  text-align: left;
+}
+
+.hambur {
+  display: none;
+}
+
+.headTitle {
+  position: absolute;
+  z-index: 2;
+  margin-top: 200px;
+  margin-left: 400px;
+  font-size: 60px;
+}
+
+.navresp {
+  display: block;
+}
+
+.nav2 {
+  display: grid;
+}
+
+.topdiv {
+  display: grid;
+  text-align: left;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 19px;
+}
+
+.imglogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav ul, footer ul {
+  margin: 0;
+  text-align: center;
+  padding-left: 15px;
+}
+
+nav {
+  background-color: #FFDB96;
+  margin-bottom: 0px;
+}
+
+header, article {
+  margin-bottom: 25px;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.imghead {
+  opacity: 80%;
+  height: 100%;
+  width: 99%;
+}
+
+section {
+  width: auto;
+  height: auto;
+}
+
+.product_action {
+  display: block;
+  justify-content: space-between;
+}
+
+div {
+  height: 100%;
+}
+
+div .product_action {
+  width: auto;
+}
+
+.singleproduct {
+  text-align: center;
+  align-items: stretch;
+  border: 0px solid black;
+  padding: 10px;
+}
+
+.shop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titleSection {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  position: static;
+}
+
+article img {
+  height: 300px;
+  width: auto;
+  max-height: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+a:hover {
+  /* opacity: 0.3; */
+  background-color: #FFC966;
+  transition: ease .7s;
+}
+
+.product_img {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+}
+
+.product_img .overlay {
+  display: none;
+  background-color: #0037ff59;
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_img:hover .overlay {
+  display: flex;
+  opacity: 1;
+  transition: ease .3s;
+}
+
+.discount_macaron {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.container {
+  width: 100%;
+}
+
+.footservice {
+  background-color: #FFDB96;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  margin-top: 130px;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.testproduct {
+  margin: 20px;
+}
+
+.videotest {
+  margin: 1px;
+}
+
+.imgservice {
+  height: 50%;
+  width: 15%;
+}
+
+.messSize {
+  font-weight: 900;
+  font-style: oblique;
+}
+
+.messreturn {
+  padding-bottom: 50px;
+}
+
+.paymentlogo {
+  height: 100px;
+  width: 100px;
+}
+
+.logologo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.numberBouton{
+  margin-top: 25px;
+}
+.numberBouton2{
+  margin-top: 100px;
+}
+
+.footbutton {
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 5%;
+  background-color: #FFDB96;
+}
+
+.footlogo {
+  height: 35px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerend {
+  text-align: center;
+}
+
+.navsize {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navsize2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+footer {
+    background-color: #FFDB96;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    width: 300px;
+    text-align: center;
+
+}
+
+.title-footer {
+    color: black;
+    margin: 0;
+}
+
+.form form {
+    padding: 16px 0;
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form label, .form textarea, .form input {
+    display: block;
+    width: 100%
+}
+
+.form label {
+    margin-bottom: 8px;
+    color: black;
+}
+
+.form input, .form textarea {
+    color: white;
+    margin-bottom: 16px;
+    background: none;
+    border-color: white;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding: 8px 0;
+}
+
+.form textarea {
+    border-width: 1px;
+}
+
+.form input[type=submit] {
+    width: auto;
+    cursor: pointer;
+    padding: 8px;
+    margin: auto;
+    border: 0;
+    background-color: #D10F0F;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.text-footer {
+    color: black  ;
+    text-decoration: none;
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
